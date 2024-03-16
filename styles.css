@@ -79,3 +79,140 @@ hr{
    
    
 }
+.search-container{
+    
+    display: flex;
+    align-items: center;
+    flex: 0 0 750px;
+    margin-left: 90px;
+}
+
+.search-container:hover{
+    flex: 1 0 685px;
+}
+
+.search-container form {
+    position: relative;
+    width: 100%;
+    border:1px solid rgb(59 59 59);
+    border-radius: 40px 0 0 40px;
+
+}
+
+.search-container input{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color:hsl(0, 0%, 7%);
+    padding: 12px;
+    color: #fff;
+    font-size: 1rem;
+    border: #404040;
+    border-radius: 40px 0 0 40px;
+    min-width: 600px;
+   
+   
+
+}
+
+.search{
+    min-width: 65px;
+    height: 41px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 20;
+   background-color: #252525;
+   outline: none;
+   border-radius: 25px;
+   border-bottom-left-radius: 0%;
+   border-top-left-radius: 0%;  
+   border:1px solid rgb(59 59 59);
+
+
+}
+button{
+   box-shadow: 0px;
+   border-color: #0f0f0f;
+   border: #0f0f0f;
+   border:1px solid rgb(74, 74, 74);
+}
+
+
+.mic{
+   height: 40px;
+   min-width: 40px;
+   border-radius: 50%;
+   outline: none;
+   border: none;
+   margin-left: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:#2c2c2c;
+   margin-right: -16;
+   
+}
+.mic:hover{
+   background-color:#5b5959;
+}
+
+
+.ri-video-add-line{
+   
+   height: 40px;
+   min-width: 40px;
+   border-radius: 50%;
+   outline: none;
+   border: none;
+   margin-left: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #0f0f0f;
+}
+
+.ri-video-add-line:hover{
+   background-color:#2e2d2d;
+}
+.ri-notification-2-line{
+
+   height: 40px;
+   min-width: 40px;
+   border-radius: 50%;
+   outline: none;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #0f0f0f;
+   margin-left: 15px;
+   margin-right: 20px;
+}
+
+.ri-notification-2-line:hover{
+   background-color:#2e2d2d;
+}
+
+.profile-container{
+   display: flex;
+   align-items: center;
+   
+}
+
+.profile-container i{
+   margin-left: 20px;
+   margin-top: 10px;
+
+}
+.profile-pic{
+
+   height: 35px;
+   width: 35px;
+   border-radius: 50%;
+   align-items: center;
+   margin-top: 10px;
+   
+
+}
