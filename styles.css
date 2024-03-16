@@ -10,6 +10,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
+body{
+    background-color: #0f0f0f;
+}
 h1{
     font-size: 1.5rem;
 }
@@ -216,3 +219,115 @@ button{
    
 
 }
+.body-container{
+    display: flex;
+    position: fixed;
+    height: calc(100vh - 60px);
+    top: 60px;
+}
+nav{
+    background-color:#0f0f0f;
+    padding-top: 10px;
+    width: 200px;
+    overflow-y:scroll ;
+   
+}
+nav a{
+    text-decoration: none;
+     color: #ffffff;
+
+}
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    /* margin-left: 10PX; */
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    cursor: pointer;
+    height: 40px;
+}
+.nav-item:hover{
+    background-color: rgb(39 39 39);
+    border-radius: 8px;
+
+
+}
+#home:hover{
+    background-color: #aaa;
+}
+.nav-item i {
+
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    
+    
+
+}
+.material-symbols-outlined {
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 100,
+  'opsz' 24
+  
+}
+.material-symbols-outlined:hover{
+    font-variation-settings:
+  'FILL' 10,
+  'wght' 100,
+  'GRAD' 100,
+  'opsz' 24
+  
+}
+
+
+.more-yt{
+   
+    height: 25px;
+    width: 25px;
+   
+   
+}
+
+h5{
+    font-size: 14px;
+    /* font-style: normal; */
+   font-weight: 100;
+  
+    
+}
+
+
+/* Scroll Bar design */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height:0px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color:#0f0f0f
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #7c7c7c;
+    border-radius: 10px;
+   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
