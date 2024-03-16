@@ -305,7 +305,7 @@ h5{
 }
 
 
-/* Scroll Bar design */
+/* ------------Scroll Bar design ------------- */
 
 /* width */
 
@@ -330,4 +330,33 @@ h5{
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+  .chip-container{
+    width: calc(100vw - 240px);
+  }
+  .chips-wrapper{
+    overflow-x:scroll;
+    background-color: #0f0f0f;
+    display: flex;
+    padding-left: 14px;
+    padding-bottom: 10px;padding-top: 8px;
+
+   
+  }
+
+
+  .chip{
+    margin: 0px 6px;
+    background-color: #252525;
+    padding: 6px 12px;
+    border-radius: 8px;
+    white-space:nowrap;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+  }
+
+  .chip:hover{
+    background-color:rgb(69, 69, 69);
   }
