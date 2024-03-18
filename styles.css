@@ -304,3 +304,95 @@ h5 {
 .chip:hover {
   background-color: rgb(69, 69, 69);
 }
+
+
+
+/* Video container starts from here */
+
+.video-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 16px;
+  padding: 20px 25px;
+  background-color: #0f0f0f;
+  overflow-y: scroll;
+  height: calc(100vh - 116px);
+  padding-left: 50px;
+
+}
+
+.video-content-cover{
+  position: relative;
+  transition: .5s;
+  transition-delay: .05s;
+
+}
+
+.video-content{
+  margin-bottom: 25px;
+  position: relative;
+  transition: .5s;
+  width: 100%;
+
+}
+
+.video-box{
+   position: relative;
+   width: 230px;
+   height: 140px;
+   display: block;
+   
+  
+}
+.video-box img:hover{
+  border-radius: 0;
+}
+.video-box img{
+  width: 230px;
+  height: 140px;
+  border-radius: 12px;
+}
+
+.channel-logo{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+
+.video-details{
+  display: flex;
+  color: #fff;
+  padding-top: 12px;
+
+}
+
+.detail{
+  margin-left: 10px;
+  font-size: small;
+  font-weight: 50;
+}
+
+.channel-name{
+  font-size: .8rem;
+  margin-top: 10px;
+  color: #aaa;
+}
+.channel-name:hover{
+  color: white;
+}
+
+.views-upload{
+  display: flex;
+  font-size: .8rem;
+  color:#aaa ;
+}
+
+.upload{
+  margin-left: 3px;
+  color:#aaa ;
+
+}
