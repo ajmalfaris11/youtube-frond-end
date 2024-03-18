@@ -102,7 +102,7 @@ hr {
   font-size: 1rem;
   border: #404040;
   border-radius: 40px 0 0 40px;
-  min-width: 600px;
+  min-width: 500px;
 }
 
 .search {
@@ -310,21 +310,22 @@ h5 {
 /* Video container starts from here */
 
 .video-container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 16px;
-  padding: 20px 25px;
-  background-color: #0f0f0f;
-  overflow-y: scroll;
-  height: calc(100vh - 116px);
-  padding-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+    padding:25px;
+    background-color: #0f0f0f;
+    overflow-y: scroll;
+    height: calc(100vh - 116px);
+    padding-left: 40px;
+    margin-right: -25px
 
 }
 
 .video-content-cover{
-  position: relative;
-  transition: .5s;
-  transition-delay: .05s;
+    position: relative;
+    transition: 0.5s;
+    transition-delay: .0s;
 
 }
 
@@ -338,8 +339,8 @@ h5 {
 
 .video-box{
    position: relative;
-   width: 230px;
-   height: 140px;
+   width: 280px;
+   height: 160px;
    display: block;
    
   
@@ -348,8 +349,8 @@ h5 {
   border-radius: 0;
 }
 .video-box img{
-  width: 230px;
-  height: 140px;
+  width: 280px;
+  height: 160px;
   border-radius: 12px;
 }
 
@@ -395,4 +396,8 @@ h5 {
   margin-left: 3px;
   color:#aaa ;
 
+}
+
+.body-container{
+ padding-left: 14px;
 }
