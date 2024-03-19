@@ -250,7 +250,7 @@ nav a {
 h5 {
   font-size: 14px;
   /* font-style: normal; */
-  font-weight: 100;
+  font-weight: 400;
 }
 
 /* ------------Scroll Bar design ------------- */
@@ -324,8 +324,8 @@ h5 {
 
 .video-content-cover{
     position: relative;
-    transition: 0.5s;
-    transition-delay: .0s;
+    transition: .5s;
+    transition-delay: .05s;
 
 }
 
@@ -358,23 +358,32 @@ h5 {
   position: relative;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
   overflow: hidden;
+  float: left;
 
 }
-
+.channel-logo img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.title{
+  margin-left:2px;
+}
 
 .video-details{
   display: flex;
   color: #fff;
   padding-top: 12px;
-
+  
 }
 
 .detail{
-  margin-left: 10px;
+  margin-left:10px;
   font-size: small;
-  font-weight: 50;
+  font-weight: 500;
+  width: 240px;
+
 }
 
 .channel-name{
