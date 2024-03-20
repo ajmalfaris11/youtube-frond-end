@@ -520,3 +520,26 @@ h5 {
   background-color:#2c2c2c;
 }
 
+/* ========== Loading Section ========== */
+
+#loading-section{
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+}
+.loader {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid #aaa; 
+  border-bottom:3px solid #aaa; 
+  border-top:3px solid #aaa; 
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(250deg); } /* Pause at 45 degrees */
+  100% { transform: rotate(360deg); } /* Continue rotation to 360 degrees */
+}
