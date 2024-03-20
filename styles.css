@@ -193,6 +193,22 @@ button {
   background-color: #2e2d2d;
 }
 
+#notification{
+  width: 22px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  right: 95px;
+  border-radius:16px;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 12px;
+  font-weight: 600;
+  color: white;
+}
+
 .profile-container {
   display: flex;
   align-items: center;
