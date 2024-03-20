@@ -7,9 +7,11 @@
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
 }
+
 body {
   background-color: #0f0f0f;
 }
+
 h1 {
   font-size: 1.5rem;
 }
@@ -31,6 +33,7 @@ p,
 a {
   font-size: 0.9rem;
 }
+
 hr {
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 12px 0;
@@ -50,6 +53,7 @@ hr {
   padding: 5px 25px;
   padding-right: 40px;
 }
+
 .ri-menu-line {
   font-size: 1.5rem;
 }
@@ -73,6 +77,7 @@ hr {
   display: flex;
   align-items: center;
 }
+
 .search-container {
   display: flex;
   align-items: center;
@@ -119,6 +124,7 @@ hr {
   border-top-left-radius: 0%;
   border: 1px solid rgb(59 59 59);
 }
+
 button {
   box-shadow: 0px;
   border-color: #0f0f0f;
@@ -139,6 +145,7 @@ button {
   background-color: #2c2c2c;
   margin-right: -16;
 }
+
 .mic:hover {
   background-color: #5b5959;
 }
@@ -159,6 +166,7 @@ button {
 .ri-video-add-line:hover {
   background-color: #2e2d2d;
 }
+
 .ri-notification-2-line {
   height: 40px;
   min-width: 40px;
@@ -186,6 +194,7 @@ button {
   margin-left: 20px;
   margin-top: 10px;
 }
+
 .profile-pic {
   height: 35px;
   width: 35px;
@@ -193,22 +202,26 @@ button {
   align-items: center;
   margin-top: 10px;
 }
+
 .body-container {
   display: flex;
   position: fixed;
   height: calc(100vh - 60px);
   top: 60px;
 }
+
 nav {
   background-color: #0f0f0f;
   padding-top: 10px;
   width: 200px;
   overflow-y: scroll;
 }
+
 nav a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .nav-items {
   display: flex;
   flex-direction: column;
@@ -216,6 +229,7 @@ nav a {
 
   /* margin-left: 10PX; */
 }
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -223,21 +237,26 @@ nav a {
   cursor: pointer;
   height: 40px;
 }
+
 .nav-item:hover {
   background-color: rgb(39 39 39);
   border-radius: 8px;
 }
+
 #home:hover {
   background-color: #aaa;
 }
+
 .nav-item i {
   margin-right: 10px;
   padding-left: 10px;
   font-size: 25px;
 }
+
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 100, "GRAD" 100, "opsz" 24;
 }
+
 .material-symbols-outlined:hover {
   font-variation-settings: "FILL" 10, "wght" 100, "GRAD" 100, "opsz" 24;
 }
@@ -281,6 +300,7 @@ h5 {
 .chip-container {
   width: calc(100vw - 240px);
 }
+
 .chips-wrapper {
   overflow-x: scroll;
   background-color: #0f0f0f;
@@ -309,27 +329,26 @@ h5 {
 
 /* Video container starts from here */
 
-.video-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 16px;
-    padding:25px;
-    background-color: #0f0f0f;
-    overflow-y: scroll;
-    height: calc(100vh - 116px);
-    padding-left: 40px;
-    margin-right: -25px
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  padding: 25px;
+  background-color: #0f0f0f;
+  overflow-y: scroll;
+  height: calc(100vh - 116px);
+  padding-left: 40px;
+  margin-right: -25px
+}
+
+.video-content-cover {
+  position: relative;
+  transition: .5s;
+  transition-delay: .05s;
 
 }
 
-.video-content-cover{
-    position: relative;
-    transition: .5s;
-    transition-delay: .05s;
-
-}
-
-.video-content{
+.video-content {
   margin-bottom: 25px;
   position: relative;
   transition: .5s;
@@ -337,24 +356,26 @@ h5 {
 
 }
 
-.video-box{
-   position: relative;
-   width: 280px;
-   height: 160px;
-   display: block;
-   
-  
+.video-box {
+  position: relative;
+  width: 280px;
+  height: 160px;
+  display: block;
+
+
 }
-.video-box img:hover{
+
+.video-box img:hover {
   border-radius: 0;
 }
-.video-box img{
+
+.video-box img {
   width: 280px;
   height: 160px;
   border-radius: 12px;
 }
 
-.channel-logo{
+.channel-logo {
   position: relative;
   width: 35px;
   height: 35px;
@@ -362,51 +383,108 @@ h5 {
   float: left;
 
 }
-.channel-logo img{
+
+.channel-logo img {
   border-radius: 50%;
   width: 35px;
   height: 35px;
 }
-.title{
-  margin-left:2px;
+
+.title {
+  margin-left: 2px;
 }
 
-.video-details{
+.video-details {
   display: flex;
   color: #fff;
   padding-top: 12px;
-  
+
 }
 
-.detail{
-  margin-left:10px;
+.detail {
+  margin-left: 10px;
   font-size: small;
   font-weight: 500;
   width: 240px;
 
 }
 
-.channel-name{
+.channel-name {
   font-size: .8rem;
   margin-top: 10px;
   color: #aaa;
 }
-.channel-name:hover{
+
+.channel-name:hover {
   color: white;
 }
 
-.views-upload{
+.views-upload {
   display: flex;
   font-size: .8rem;
-  color:#aaa ;
+  color: #aaa;
 }
 
-.upload{
+.upload {
   margin-left: 3px;
-  color:#aaa ;
+  color: #aaa;
 
 }
 
-.body-container{
- padding-left: 14px;
+.body-container {
+  padding-left: 14px;
+}
+
+/* -------- shorts section --------- */
+.shorts-section {
+  grid-column: span 3;
+    height: 450px;
+    margin-bottom: 100px;
+   
+}
+.shorts-logo{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+
+}
+
+.shorts-logo img{
+  width: 20px;
+}
+
+.shorts-chip-section{
+  height: 100%;
+  gap: 15px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+}
+.shorts-chip{
+  height: 100%;
+  min-width: 200px;
+  width: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 12px;
+  color: white;
+
+
+}
+.shorts-video{
+  height: 350px;
+}
+.shorts-chip img{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+ .shorts-discription{
+  margin-top: 10px;
+}
+.shorts-discription span{
+  font-size: small;
+  color: #7c7c7c;
 }
