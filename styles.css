@@ -186,6 +186,7 @@ button {
   background: #0f0f0f;
   margin-left: 15px;
   margin-right: 20px;
+  font-size: 20px;
 }
 
 .ri-notification-2-line:hover {
@@ -465,7 +466,7 @@ h5 {
 
 .shorts-chip-section{
   height: 100%;
-  gap: 15px;
+  gap: 20px;
   overflow-x: scroll;
   display: flex;
   flex-direction: row;
