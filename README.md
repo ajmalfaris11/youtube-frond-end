@@ -16,3 +16,6 @@ To get started with the YouTube Friend End project, simply clone the repository 
 
 ```bash
 
+git clone <[repository_url](https://github.com/ajmalfaris11/youtube-frond-end)https://github.com/ajmalfaris11/youtube-frond-end>
+
+
