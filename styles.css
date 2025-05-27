@@ -356,21 +356,22 @@ h5 {
 
 .video-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 16px;
-  padding: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  gap: 16px;
+  padding: 25px 40px;
   background-color: #0f0f0f;
   overflow-y: scroll;
   height: calc(100vh - 116px);
-  padding-left: 40px;
-  margin-right: -25px
+  margin-right: -25px;
+  position: relative;
 }
+
 
 .video-content-cover {
   position: relative;
   transition: .5s;
   transition-delay: .05s;
-
+  width: 100%;
 }
 
 .video-content {
@@ -378,16 +379,13 @@ h5 {
   position: relative;
   transition: .5s;
   width: 100%;
-
 }
 
 .video-box {
   position: relative;
-  width: 280px;
-  height: 160px;
+  width: 100%;
+  height: auto;
   display: block;
-
-
 }
 
 .video-box img:hover {
@@ -395,8 +393,8 @@ h5 {
 }
 
 .video-box img {
-  width: 280px;
-  height: 160px;
+  width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
@@ -579,4 +577,21 @@ h5 {
   }
 
   /* Continue rotation to 360 degrees */
+}
+
+@media (max-width: 600px) {
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  nav {
+    display: none;
+  }
+  .chip-container {
+    width: 100vw;
+  }
+  .body-container {
+   padding-left: 0px;
+  }
 }
