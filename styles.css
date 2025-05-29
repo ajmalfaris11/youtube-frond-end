@@ -252,7 +252,6 @@ nav a {
   flex-direction: column;
   margin-right: 10px;
 
-  /* margin-left: 10PX; */
 }
 
 .nav-item {
@@ -297,7 +296,9 @@ h5 {
   font-weight: 400;
 }
 
-
+.icon-group {
+  display: none;
+}
 
 
 /* Navbar Container */
@@ -702,5 +703,30 @@ h5 {
     align-items: center;
     padding-bottom: 5px;
     z-index: 1000;
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  .icon-group {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Spacing between the three icons */
+  }
+
+  .material-symbols-outlined {
+    font-size: 24px;
+    /* Standard icon size */
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 700;
+  }
+
+  /* Hover effect for desktop simulation */
+  .material-symbols-outlined:hover {
+    opacity: 0.8;
   }
 }
