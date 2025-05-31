@@ -683,6 +683,7 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    padding-inline: 10px;
   }
 
   nav {
